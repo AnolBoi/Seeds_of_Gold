@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "seeds_of_gold",
+	"version": "${version}",
+	"name": "Seeds of Gold",
+	"description": "This mod adds edible Sunflower Seeds, you can even roast them in a furnace/smoker! ",
+	"authors": [
+		"Anol, Hoshi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/seeds_of_gold/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.anoltongi.seedsofgold.SeedsOfGold"
+		],
+		"fabric-datagen": [
+			"net.anoltongi.seedsofgold.SeedsOfGoldDataGenerator"
+		]
+	},
+	"mixins": [
+		"seeds_of_gold.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

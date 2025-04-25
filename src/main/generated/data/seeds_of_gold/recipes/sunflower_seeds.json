@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:sunflower"
+    }
+  },
+  "pattern": [
+    "SS"
+  ],
+  "result": {
+    "count": 2,
+    "item": "seeds_of_gold:sunflower_seeds"
+  },
+  "show_notification": true
+}

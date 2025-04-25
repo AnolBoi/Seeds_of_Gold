@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "seeds_of_gold:item/sunflower_seeds"
+  }
+}

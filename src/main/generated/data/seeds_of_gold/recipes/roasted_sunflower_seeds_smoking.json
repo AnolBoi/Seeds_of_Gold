@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "seeds_of_gold:sunflower_seeds"
+  },
+  "result": "seeds_of_gold:roasted_sunflower_seeds"
+}
